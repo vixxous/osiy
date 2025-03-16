@@ -1,14 +1,5 @@
---[[
-    Infinite Yield Script Cleanup and Optimization
-    Author: spyofficial
-    Version: 1.0
-    Description: This script initializes and manages the Infinite Yield GUI, including command execution, settings, and UI elements.
-]]
-
--- Check if Infinite Yield is already loaded
 if IY_LOADED and not _G.IY_DEBUG then
-error("Not Working")
-    return -- Exit if already running
+    return
 end
 
 -- Mark Infinite Yield as loaded
